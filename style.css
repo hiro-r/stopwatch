@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    background-color: #0093E9;
+    background-image: linear-gradient(0deg, #0093E9 0%, #80D0C7 100%);
+}
+
+h1 {
+    color: rgb(15, 28, 206);
+    margin-top: -100px;
+}
+
+p {
+    font-size: 2.5em;
+    margin: 30px auto 40px; 
+    color: #f6efef;
+}
+
+button {
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    margin: 0 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #393333;
+    background-color: rgb(135, 231, 9);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(246, 170, 31);
+}
